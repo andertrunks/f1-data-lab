@@ -23,6 +23,17 @@ Nesta primeira etapa, o projeto terá uma base pequena com:
 - temporadas;
 - resultados.
 
+## Estrutura atual dos dados
+
+O projeto possui, nesta etapa inicial, quatro arquivos CSV:
+
+- `data/pilotos.csv`: cadastro inicial de pilotos;
+- `data/equipes.csv`: cadastro inicial de equipes;
+- `data/corridas.csv`: cadastro inicial de corridas;
+- `data/resultados.csv`: resultados iniciais ligando corridas, pilotos e equipes.
+
+A estrutura começa a formar uma base relacional simples, que futuramente poderá ser usada em SQL, Power BI e Python.
+
 ## Perguntas que o projeto pretende responder
 
 1. Quais pilotos têm mais vitórias?
